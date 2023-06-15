@@ -56,6 +56,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
+ios_build*/
 *.apk
 *.aab
 *.unitypackage
@@ -70,3 +71,20 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# Custom
+/[Aa]ssets/InitTestScene*.unity.meta
+/[Aa]ssets/InitTestScene*.unity
+
+# Remove mediapipe resources
+/Packages/com.github.homuler.mediapipe/Runtime/Resources/
+/Packages/com.github.homuler.mediapipe/Samples~/
+Build/
+Temp/
+TempFolder/
+
+# Temp
+.curl/
+.version
+.DS_Store
